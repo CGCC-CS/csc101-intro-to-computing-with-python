@@ -2,7 +2,7 @@
 
 ## Objectives
 
-- Primary compoenets of a computer
+- Primary components of a computer
 - Social & cultural effects of computing
 - Binary & ASCII data representation
 - Unicode

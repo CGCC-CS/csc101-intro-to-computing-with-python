@@ -11,6 +11,10 @@
 
 [Video](https://youtu.be/4R-lBsQhUeM) (1:30): A "Hello, world" program
 
+### example.py
+
+[Video](https://youtu.be/Dn4l0IRSyYQ) (4:31): A walkthrough of the example program from the slides for this module
+
 ### indent.py
 
 This video is intended for students who have some programming experience in a language other than Python.

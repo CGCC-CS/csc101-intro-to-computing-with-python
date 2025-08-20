@@ -4,8 +4,8 @@
 
 - Primary components of a computer
 - Social & cultural effects of computing
-- Binary & ASCII data representation
-- Unicode
+- Binary & Hexadecimal
+- ASCII & Unicode data representation
 
 ## Videos
 

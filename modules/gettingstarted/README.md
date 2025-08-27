@@ -9,7 +9,7 @@
 
 ### hello.py
 
-[Video](https://youtu.be/4R-lBsQhUeM) (1:30): A "Hello, world" program
+[Video](https://youtu.be/MR1R4D1zz8E) (1:30): A "Hello, world" program
 
 ### example.py
 

@@ -11,3 +11,13 @@
 
 ## Example code
 
+datatypes.py
+variables.py
+operators.py
+comparison.py
+inputoutput.py
+expressions.py
+comments.py
+calculator.py
+shoppingcart.py
+tempconverter.py

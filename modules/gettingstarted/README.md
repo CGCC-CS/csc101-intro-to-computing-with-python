@@ -25,7 +25,7 @@ This video is intended for students who have some programming experience in a la
 
 ### Windows
 
-[Installing Python on Windows 11 Video](https://youtu.be/HUrZoTVddjA) (2:15)
+[Installing Python on Windows 11 Video](https://youtu.be/mBFNwr-l1MY) (2:08)
 
 You can download Python for Windows from the [official Python site](https://www.python.org/downloads/)
 

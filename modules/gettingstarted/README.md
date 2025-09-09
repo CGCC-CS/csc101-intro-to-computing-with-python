@@ -23,6 +23,12 @@ This video is intended for students who have some programming experience in a la
 
 ## Downloading Python
 
+### Google Colab
+
+The quickest way to get started is to use [Google's Colab](https://colab.research.google.com/)
+
+[This video walks through typing & running Python code with Colab](https://youtu.be/TtRiZwGBL2Q) (2:38)
+
 ### Windows
 
 [Installing Python on Windows 11 Video](https://youtu.be/mBFNwr-l1MY) (2:08)

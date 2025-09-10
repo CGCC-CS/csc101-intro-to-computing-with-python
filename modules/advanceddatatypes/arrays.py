@@ -7,12 +7,12 @@ array = []
 for ii in range(10):
     array.append(ii * 100)
 
-print("Array a (size={}): {}".format(len(a),a))
-print("Array b (size={}): {}".format(len(b),b))
-print("Array array (size={}): {}".format(len(array),array))
+print(f"Array a (size={len(a)}): {a}")
+print(f"Array b (size={len(b)}): {b}")
+print(f"Array array (size={len(array)}): {array}")
 
 # Iterating through an array:
 total = 0
 for value in a:
     total += value
-print("The sum of {} is {}".format(a, total))
+print(f"The sum of {a} is {total}")

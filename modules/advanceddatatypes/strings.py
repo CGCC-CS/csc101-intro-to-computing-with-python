@@ -1,4 +1,7 @@
-'''Examples of working with strings in Python'''
+'''
+Examples of working with strings in Python
+    creation, indexing, iteration, and common methods
+'''
 
 LIST = ['W', 'o', 'r', 'l', 'd']      # List of characters
 print(f"list = {LIST} length={len(LIST)}")

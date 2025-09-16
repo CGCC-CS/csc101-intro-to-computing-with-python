@@ -17,7 +17,7 @@ Introduces variables and constants
 
 ### datatypes.py
 
-Introduces the different built-in data types in Python (int, float, str, bool, list, tuple, dict, set, complex) with printed examples
+[Video link](https://youtu.be/rLc8Mes-MTg) (3:23) Introduces the different built-in data types in Python (int, float, str, bool, list, tuple, dict, set, complex) with printed examples
 
 ### operator.py
 

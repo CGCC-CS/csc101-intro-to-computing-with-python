@@ -21,7 +21,7 @@ Introduces the different built-in data types in Python (int, float, str, bool, l
 
 ### operator.py
 
-Examples of using the arithmetic operators (+, -, *, /, //, %, **) and how they behave with numbers
+[Video link](https://youtu.be/bKY3fD2wczA) (2:49) Examples of using the arithmetic operators (+, -, *, /, //, %, **) and how they behave with numbers
 
 ### expressions.py
 

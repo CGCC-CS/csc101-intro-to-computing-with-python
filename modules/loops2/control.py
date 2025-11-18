@@ -33,9 +33,19 @@ for ii in range(100000):
     if ii > b:
         print("Breaking at {}".format(ii))
         break
+while True:
+    text = input("Enter: ")
+    if text == "stop":
+        break
 
 print("Continue if not divisible by 3:")
 for ii in range(b+1):
     if not (ii % 3) == 0:
         continue
     print("  {}".format(ii))
+    
+    
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)

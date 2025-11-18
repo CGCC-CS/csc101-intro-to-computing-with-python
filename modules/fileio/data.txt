@@ -1,0 +1,10 @@
+ENIAC 1945
+UNIVAC 1951
+IBM360 1964
+Altair8800 1975
+AppleII 1977
+Commodore64 1982
+Macintosh 1984
+ThinkPad700C 1992
+iMac 1998
+RaspberryPi 2012

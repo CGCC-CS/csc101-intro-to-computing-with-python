@@ -7,8 +7,8 @@
 
 import math
 
-# Substitute your name for mine on the next line.
-student_name = 'Prema'
+# Substitute your name on the next line.
+student_name = 'REPLACE WITH YOUR NAME'
 
 print("The value of pi supplied by the math module is", math.pi)
 

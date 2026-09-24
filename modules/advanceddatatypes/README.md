@@ -1,4 +1,4 @@
-# Strings, Lists, Tuples, Sets, & Dictionaries
+# Lists, Tuples, Sets, & Dictionaries
 
 ## Objectives
 

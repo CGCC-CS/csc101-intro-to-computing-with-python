@@ -1,5 +1,9 @@
 # Example code from the module slides
 
+5 > 3      # True
+5 == 3     # False
+5 != 3     # True
+
 condition = True
 
 if condition:
@@ -41,6 +45,28 @@ else:
     grade = "F"
 print(f"Your grade is: {grade}")
 
+
+# if vs if-elif
+score = 95
+
+if score >= 70:
+    print("Passing")
+
+if score >= 80:
+    print("Good")
+
+if score >= 90:
+    print("Excellent")
+
+score = 95
+
+if score >= 90:
+    print("Excellent")
+elif score >= 80:
+    print("Good")
+elif score >= 70:
+    print("Passing")
+
 # and - both conditions must be True
 age = 25 
 income = 50000 
@@ -73,27 +99,21 @@ else:
     
     
 # Get user input 
-user_input = input("Enter your age: ") 
+user_input = input("Enter your age: ")
 
-# Check if input is numeric 
-if user_input.isdigit(): 
-    age = int(user_input) 
-    # Validate age range 
-    if age < 0: 
-        print("Age cannot be negative!") 
-    elif age > 150: 
-        print("That seems too old!") 
-    else: 
-        # Determine age category 
-        if age < 13: 
-            print("You're a child") 
-        elif age < 20:
-            print("You're a teenager")
-        else:
-            print("You're an adult")
+if user_input.isdigit():
+    age = int(user_input)
+
+    if age > 150:
+        print("That seems too old!")
+    elif age < 13:
+        print("You're a child")
+    elif age < 20:
+        print("You're a teenager")
+    else:
+        print("You're an adult")
 else:
-    print("Please enter a valid number!")
-    
+    print("Please enter a valid age!")
 
 # Debug example
 score = 85
@@ -102,11 +122,14 @@ print(f"Debug: score = {score}")
 # Check the value
 if score >= 90:
     # Track execution
-    print("Debug: A branch")
+    print("Debug: A branch (if)")
     grade = "A"
 elif score >= 80:
     # This should execute
-    print("Debug: B branch")
+    print("Debug: B branch (elif)")
     grade = "B"
+else:
+    print("Debug: C branch (else)")
+    grade = "C"
 
 print(f"Final grade: {grade}")

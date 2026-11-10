@@ -4,22 +4,24 @@
 
 - Overview of the course
 - Installing Python
+- Writing and running your first Python program
+- Understanding how Python uses indentation to mark code blocks
 
 ## Example code
 
-### hello.py
+### [hello.py](./hello.py)
 
 [Video](https://youtu.be/MR1R4D1zz8E) (1:30): A "Hello, world" program
 
-### example.py
+### [example.py](./example.py)
 
-[Video](https://youtu.be/Dn4l0IRSyYQ) (4:31): A walkthrough of the example program from the slides for this module
+[Video](https://youtu.be/Dn4l0IRSyYQ) (4:31): A walkthrough of the example program from the slides for this module. Prints a greeting, asks for your name with `input()`, and welcomes you using an f-string.
 
-### indent.py
+### [indent.py](./indent.py)
 
 This video is intended for students who have some programming experience in a language other than Python.
 
-[Video](https://youtu.be/U2bcCsYFAlQ) (5:09): Indentation is important in Python - its how we indicate code blocks. This video walks through some of the things you need to know about.
+[Video](https://youtu.be/U2bcCsYFAlQ) (5:09): Indentation is important in Python - it's how we indicate code blocks. This video walks through some of the things you need to know about. The example shows indented blocks inside a function, an `if`/`else`, and a `while` loop.
 
 ## Downloading Python
 
@@ -35,11 +37,11 @@ The quickest way to get started is to use [Google's Colab](https://colab.researc
 
 You can download Python for Windows from the [official Python site](https://www.python.org/downloads/)
 
-**NOT REQUIRED**, but if you want to use Python on Windows Subsystem for Linux.  Here is a video walking through [installing Python with pyenv in Ubuntu for Windows](https://youtu.be/pMlLDWQ8SuE) (6:03)
+**NOT REQUIRED**, but if you want to use Python on Windows Subsystem for Linux, here is a video walking through [installing Python with pyenv in Ubuntu for Windows](https://youtu.be/pMlLDWQ8SuE) (6:03)
 
 #### PyCharm
 
-PyCharm is a great, free Python IDE which you can download form [JetBrains](https://www.jetbrains.com/pycharm/download/)
+PyCharm is a great, free Python IDE which you can download from [JetBrains](https://www.jetbrains.com/pycharm/download/)
 
 [Installing PyCharm Community Edition on Windows 11 Video](https://youtu.be/Za0s3_y5hlY) (2:37)
 
@@ -49,4 +51,4 @@ Mac instructions *COMING SOON*
 
 ### Linux
 
-Python usually is installed with Linux.  You can run it using the command `python` or `python3` depending on your system.
+Python is usually installed with Linux. You can run it using the command `python` or `python3` depending on your system.

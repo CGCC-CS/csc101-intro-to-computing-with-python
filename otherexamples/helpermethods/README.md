@@ -12,7 +12,7 @@ All examples are plain Python 3 with no third-party dependencies.
 
 Each file runs on its own from a terminal:
 
-```(bash)
+```bash
 python countpositive.py
 python validusername.py
 python passingstudent.py

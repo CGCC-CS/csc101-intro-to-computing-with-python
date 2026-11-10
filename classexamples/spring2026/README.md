@@ -2,8 +2,6 @@
 
 This directory contains Python files downloaded from Google Colab notebooks used as in-class examples. Each file demonstrates fundamental and advanced Python programming concepts.
 
-Generated with Claude Cowork May 6, 2026
-
 ## Table of Contents
 
 - [Core Python Basics](#core-python-basics)
@@ -246,7 +244,7 @@ By working through these examples, students will understand:
 
 ## Instructor
 
-Wade Huber (wade.huber@cgc.edu)
+Wade Huber
 
 ## Note
 

@@ -21,6 +21,8 @@ def fib_tail(n):
 
 def fib_tail_helper(n, f2, f1):
     """Helper function for tail-recursive Fibonacci implementation"""
+    if n <= 0:
+        return 0
     if n <= 2:
         return f1
     return fib_tail_helper(n - 1, f1, f1 + f2)
@@ -46,7 +48,7 @@ def main():
 
     print()
     print("Testing fib_tail:")
-    for value in [1, 2, 3, 4, 5, 7, 10, 20, 50, 100]:
+    for value in [0, 1, 2, 3, 4, 5, 7, 10, 20, 50, 100]:
         print(f"    fib_tail({value})={fib_tail(value)}")
 
     print()

@@ -18,7 +18,7 @@ unique_ids = {101, 102, 103}  # set
 
 # Print each variable with its value and type for demonstration
 print(f"Age: {age}, Type: {type(age)}")
-print(f"Price: {pi}, Type: {type(pi)}")  # Added formatting for currency
+print(f"Price: {pi}, Type: {type(pi)}") 
 print(f"Name: '{name}', Type: {type(name)}")
 print(f"Is Student: {is_student}, Type: {type(is_student)}")
 print(f"Complex: {imaginary}, Type: {type(imaginary)}")

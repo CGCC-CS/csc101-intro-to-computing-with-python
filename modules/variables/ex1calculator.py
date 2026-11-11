@@ -9,7 +9,7 @@ This program does not handle invalid inputs or division by zero.
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-# Perform calculations:w
+# Perform calculations
 
 sum_result = num1 + num2
 difference = num1 - num2

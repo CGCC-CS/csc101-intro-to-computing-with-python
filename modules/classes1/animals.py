@@ -69,4 +69,4 @@ if __name__ == "__main__":
     print("MAIN: Cat object:")
     c.speak()
     c.move()
-    d.eat()
+    c.eat()

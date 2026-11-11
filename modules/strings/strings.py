@@ -7,7 +7,7 @@ LIST = ['W', 'o', 'r', 'l', 'd']      # List of characters
 print(f"list = {LIST} length={len(LIST)}")
 
 STR1 = "Hello"
-STR2 = "".join(['e', 'n', 'd', '.'])  # Create a list by joining a list of characters together
+STR2 = "".join(['e', 'n', 'd', '.'])  # Create a string by joining a list of characters together
 STR3 = "This is a really long string.  Maybe too long?"
 
 print(f"str1 = {STR1} length={len(STR1)}")
@@ -19,7 +19,7 @@ for char in STR1:
     print(f"  {char}")
 
 print("String 2 ASCII values: ")
-for char in STR1:
+for char in STR2:
     print(f"  {char} (ASCII={ord(char)})")
 
 #appending a string

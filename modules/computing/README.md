@@ -11,4 +11,8 @@
 
 [Working with Hexadecimal and Binary Values](https://youtu.be/EXyDKPDfX8I) (2:20)
 
-[Example Python program: binary.py](https://youtu.be/z1rY2WnS1FM) (6:31) - a Python program to convert back & forth between decimal & binary
+## Example code
+
+### [binary.py](./binary.py)
+
+[Video](https://youtu.be/z1rY2WnS1FM) (6:31): An interactive program that converts back & forth between decimal & binary. Uses `bin()` to convert decimal to binary (removing the `0b` prefix with slicing) and `int(value, 2)` to convert binary to decimal.

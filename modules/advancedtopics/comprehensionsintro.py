@@ -69,6 +69,7 @@ result = [x * y
           for y in range(10)
           if x * y > 20
           and x % 2 == 0]
+print(f"result = {result}")
 
 # Shortcuts so that you don't have to use a comprehension
 print()

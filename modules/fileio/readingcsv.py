@@ -1,12 +1,13 @@
-# Open and read CSV file safely using 'with'
-with open("books.csv") as file_obj:
-    csv_rows = file_obj.readlines()   # Get list of lines (with \n)
+import csv
+from pathlib import Path
 
-list_csv = []
-for row in csv_rows:
-    row = row.strip("\n")             # Remove trailing newline
-    cells = row.split(",")            # Split line into list by comma
-    list_csv.append(cells)            # Add row to 2-D list
+# Build a path to books.csv in the same folder as this script
+csv_path = Path(__file__).resolve().parent / "books.csv"
 
-print(list_csv)                       # [['Title', 'Author'], ['1984', 'Orwell'], ...]
-file_obj.close()                      # Manually close the file
+# Open and read the CSV file safely using 'with'
+with csv_path.open(newline="") as file_obj:
+    # Each row becomes a list of cells
+    list_csv = list(csv.reader(file_obj))
+
+# [['Title', 'Author'], ['1984', 'Orwell'], ...]
+print(list_csv)
